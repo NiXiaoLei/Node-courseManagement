@@ -1,0 +1,16 @@
+
+<div class="card card-body mt-2">
+    <h3>想学课程</h3>
+    <form action="/ideas" method="post">
+        <div  class="form-group">
+            <label for="exampleInputEmail1">标题</label>
+            <input type="text" class="form-control"  name="title" value="{{title}}" >
+            <small id="emailHelp" class="form-text text-muted">填写你想要的课程名称</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">详情</label>
+            <textarea row="4" class="form-control" name="details" value="details" ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">提交</button>
+    </form>
+</div>
